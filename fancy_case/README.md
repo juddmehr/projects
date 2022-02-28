@@ -10,9 +10,9 @@ Note that I didn't actually laser cut the plates on mine. I actually CNC milled 
 
 ## Parts List:
 
-|Item|Notes|Price (USD)|Shipping to USA (USD)|Minimum Purchasable Quantity|Units Required for 1 Keyboard|How many more keyboards can be made|Price Each|Price per Keyboard|Ordered|TOTAL NEEDED TO SPEND:|
+|Item|Notes|Price (USD)|Shipping to USA (USD)|Purchasable Quantity|Units Required for 1 Keyboard|How many more keyboards can be made|Price Each|Price per Keyboard|Ordered|TOTAL NEEDED TO SPEND:|
 |---|---|---|---|---|---|---|---|---|---|---|
-|[Acrylic](https://www.aliexpress.com/item/4000270915715.html)|For faceplate and base|$18.43|$0.00|2|1|1.0|$9.22|$9.22|2|$18.43|
+|[3mm Acrylic](https://www.aliexpress.com/item/4000270915715.html)|For baseplate|$18.43|$0.00|2|1|1.0|$9.22|$9.22|2|$18.43|
 |[Rubber Pads](https://www.aliexpress.com/item/4000266239818.html)|For grip on the bottom|$2.29|$2.03|50|10|4.0|$0.09|$0.86|50|$4.32|
 |[Washers](https://www.aliexpress.com/item/1005003631594043.html)|For extra 0.5mm between PCB and Plate|$0.99|$0.00|100|10|9.0|$0.01|$0.10|100|$0.99|
 |[3mm threaded spacers](https://www.aliexpress.com/item/1005003346233271.html)|between plate and pcb|$3.21|$0.00|50|10|4.0|$0.06|$0.64|50|$3.21|
