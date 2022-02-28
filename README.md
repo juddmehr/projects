@@ -23,6 +23,8 @@ Note that there are several vendors that sell kits. If you want to have full con
 
 I started with [this post](https://www.reddit.com/r/crkbd/comments/esv3i8/guide_corne_diy_kit/) when searching for parts.  If you want to add LED's, there's information about those there.
 
+In addition to the parts listed below, you'll also need [42 switches](https://www.aliexpress.com/item/1005002462284350.html), [40 1u keycaps](https://www.aliexpress.com/item/1005001992729725.html), and [2 1.5u keycaps](keycap_files/). These linked items are those that I used, but of course such things are up to personal preference.  Also note that Cherry MX style switches need to be used for this PCB and case.
+
 |Item|Price (USD)|Shipping to USA (USD)|MinimumPurchasable Quantity|Units Required for 1 Keyboard|How many more keyboards can be made|Price Each|Price per Keyboard|Ordered|TOTAL NEEDED TO SPEND:|
 |---|---|---|---|---|---|---|---|---|---|
 |[Pro Micro Type C](https://www.aliexpress.com/item/1005003227884730.html)|$4.86|$2.32|1|1|1.0|$7.18|$7.18|2|$7.18|
