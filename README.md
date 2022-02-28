@@ -1,4 +1,4 @@
-# Corne Cherry Keyboard Builds
+# Corne Cherry Hotswap Keyboard Builds
 
 ## Fancy Case Build
 ![fancy](images/view2.jpg)
@@ -22,6 +22,8 @@ Find relavent files in [3dprint_case](3Dprint_case/)
 Note that there are several vendors that sell kits. If you want to have full control over the components, colors, etc. then here is my list of items.  Note that all links worked when this was written, but you may have to search for similar items if they are now broken.
 
 I started with [this post](https://www.reddit.com/r/crkbd/comments/esv3i8/guide_corne_diy_kit/) when searching for parts.  If you want to add LED's, there's information about those there.
+
+In addition to the parts listed below, you'll also need [42 switches](https://www.aliexpress.com/item/1005002462284350.html), [40 1u keycaps](https://www.aliexpress.com/item/1005001992729725.html), and [2 1.5u keycaps](keycap_files/). These linked items are those that I used, but of course such things are up to personal preference.  Also note that Cherry MX style switches need to be used for this PCB and case.
 
 |Item|Price (USD)|Shipping to USA (USD)|MinimumPurchasable Quantity|Units Required for 1 Keyboard|How many more keyboards can be made|Price Each|Price per Keyboard|Ordered|TOTAL NEEDED TO SPEND:|
 |---|---|---|---|---|---|---|---|---|---|
