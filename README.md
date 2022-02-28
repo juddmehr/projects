@@ -1,4 +1,4 @@
-# Corne Keyboard Builds
+# Corne Cherry Keyboard Builds
 
 ## Fancy Case Build
 ![fancy](images/view2.jpg)
