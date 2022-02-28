@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name kbd)(type KiCad)(uri ${KIPRJMOD}/kbd/kicad-footprints/kbd.pretty)(options "")(descr ""))
+  (lib (name silks)(type KiCad)(uri /Users/jmehr/Downloads/crkbd-main/corne-cherry/pcb/libraries/silks.pretty)(options "")(descr ""))
+)
