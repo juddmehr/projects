@@ -3,7 +3,7 @@
 ## Fancy Case Build
 ![fancy](images/view2.jpg)
 
-Find relavent files and parts list in the [fancy_case](fancey_case) directory.
+Find relavent files and parts list in the [fancy_case](fancey_case/) directory.
 
 ---
 
@@ -12,4 +12,4 @@ Find relavent files and parts list in the [fancy_case](fancey_case) directory.
 
 ![3dprint](images/3dprint.jpg)
 
-Find relavent files in [3dprint_case](3Dprint_case)
+Find relavent files in [3dprint_case](3Dprint_case/)
