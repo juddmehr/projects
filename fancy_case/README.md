@@ -24,7 +24,7 @@ These are the screws, spacers, etc. I used to put the case together.
 |[18mm M2 spacers](https://www.aliexpress.com/item/1005002913946631.html)|through all wood layers|$4.75|$0.00|30|18|0.7|$0.16|$2.85|30|$4.75|
 |[middle screws top (M2x3mm)](https://www.aliexpress.com/item/1005003411992910.html)|connect plate to spacer|$1.70|$0.00|50|10|4.0|$0.03|$0.34|50|$1.70|
 |[middle screws bottom (M2x5mm)](https://www.aliexpress.com/item/1005003411992910.html)|"connect base to wood spacers (could have used 4mm screws here instead. In fact| should make these 4mm screws if using anyway)"|$1.88|$0.00|50|18|1.8|$0.04|$0.68|50|$1.88|
-|**TOTALS**|||||||||**$7.08**||**$23.72**|
+|**TOTALS**||||||||**$7.08**||**$23.72**|
 
 ### Raw Materials
 
@@ -37,4 +37,4 @@ If ordering from a laser cutting company, there's no need to purchase these mate
 |[wood (1/8"x6"x24")](https://ocoochhardwoods.com/scroll-saw-lumber/walnut/#walnut)|For layers|$8.40|$8.43|1|0.5|1.0|$16.83|$8.42|1|$16.83|
 |[3mm Acrylic (25x25cm)](https://www.aliexpress.com/item/4000270915715.html)|for base|$18.43|$0.00|2|1|1.0|$9.22|$9.22|2|$18.43|
 |[1mm Acrylic (5x7"")](https://www.amazon.com/dp/B09KXZCPWR?psc=1&ref=ppx_yo2_dt_b_product_details)|for face|$6.99|$0.00|6|2|24.0|$1.17|$2.33|50|$6.99|
-|**TOTALS**|||||||||**$40.26**||**$77.36**|
+|**TOTALS**||||||||**$40.26**||**$77.36**|
