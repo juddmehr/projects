@@ -12,7 +12,7 @@ This is the first case I made. I've included the original [CAD (SolidWorks) file
 
 Note that I didn't actually laser cut the plates on mine. I actually CNC milled them.  That being said, it's much better to laser cut them, so I've only included those files. (The CNC CAD is very similar, but slightly adjusted to account for the fact that you can't cut square easily.)
 
-Also note that in the process of milling out the plates I messed up the brass stock beyond salvaging. The plate in the photos is actually a steel scrap I picked up.  After milling, I sandblasted it for texture and then baked it in an oven at 500F for about 2 hours to try and get the surface oxidation the right thickness to approximate a brass color.  I don't think the oven actually got up to 500F though, since it should probably be a little darker at that temperature.
+Also note that in the process of milling out the plates I messed up the brass stock beyond salvaging. The plate in the photos is actually a steel scrap I picked up.  After milling, I sandblasted it for texture and then baked it in an oven at 500F for about 2 hours to try and get the surface oxidation the right thickness to approximate a brass color.
 
 
 ## Parts List:
