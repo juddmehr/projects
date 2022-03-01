@@ -10,7 +10,9 @@ Find relavent files and parts list in the [fancy_case](fancy_case/) directory.
 
 ## 3D Print Case Build
 
-![3dprint](images/3dprint.jpg)
+<!-- ![3dprint](images/3dprint.jpg) -->
+
+**_IN PROGRESS_**
 
 Find relavent files in [3dprint_case](3Dprint_case/)
 
