@@ -27,8 +27,6 @@ I started with [this post](https://www.reddit.com/r/crkbd/comments/esv3i8/guide_
 
 In addition to the parts listed below, you'll also need [42 switches](https://www.aliexpress.com/item/1005002462284350.html), [40 1u keycaps](https://www.aliexpress.com/item/1005001992729725.html), and [2 1.5u keycaps](keycap_files/). These linked items are those that I used, but of course such things are up to personal preference.  Also note that Cherry MX style switches need to be used for this PCB and case.
 
-I should also note that this list is missing a method for properly socketing the OLED screens.  I have yet to figure out a good way to do that with how tall the Pro Micro sockets are (if not socketing, then you have no issues).
-
 |Item|Price (USD)|Shipping to USA (USD)|MinimumPurchasable Quantity|Units Required for 1 Keyboard|How many more keyboards can be made|Price Each|Price per Keyboard|Ordered|TOTAL NEEDED TO SPEND:|
 |---|---|---|---|---|---|---|---|---|---|
 |[Pro Micro Type C](https://www.aliexpress.com/item/1005003227884730.html)|$4.86|$2.32|1|1|1.0|$7.18|$7.18|2|$7.18|
