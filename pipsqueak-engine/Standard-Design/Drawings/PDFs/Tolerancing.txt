@@ -1,0 +1,30 @@
+Piston head/ Cylinder Tolerance:  
+RC4 Fit
+Cylinder: 0.5000 - 0.5010
+Piston: 0.4987 - 0.4994
+Clearance: 0.6 - 2.3 (thousandths)
+
+Piston Rod/Piston Rod Bushing Tolerance:
+RC4 Fit
+Piston Rod: 0.1882 - 0.1875
+Bushing: 0.1871 - 0.1866
+CLearance: 0.4 - 1.6 (thousandths)
+
+Drive Shaft/ Bushings
+RC4 Fit
+Shaft: 0.3114 - 0.312
+Bushings: 0.3134 - 0.3125
+Clearance: 0.5 - 2 (thousandths)
+
+Rocker Pin/ Bushing
+RC4 Fit
+Pin: 0.3114 - 0.312
+Bushings: 0.3134 - 0.3125
+Clearance: 0.5 - 2 (thousandths)
+
+Bushings/ Uprights
+LN1 Fit
+Bushing: .4371 - .4375
+Uprights: .4367 - .4371
+Clearance: 0 - .8 (thousandths)
+
