@@ -40,4 +40,5 @@ I should also note that this list is missing a method for properly socketing the
 |[Diodes](https://www.aliexpress.com/item/32849879904.html)|$0.75|$1.47|100|42|1.4|$0.02|$0.93|100|$2.22|
 |[Switch Sockets](https://www.aliexpress.com/item/4000019410050.html)|$21.90|$0.38|90|42|1.9|$0.25|$10.40|120|$22.28|
 |[OLED](https://www.aliexpress.com/item/32777216785.html)|$1.54|$2.85|1|2|1.0|$4.39|$8.78|4|$8.78|
-|**TOTALS**|||||||**$39.66**||**$95.65**|
+|[OLED Sockets](https://www.aliexpress.us/item/3256801232229618.html)|$2.76|$0.0|10|1-2|5-10|$0.28|$0.28-$0.55|10|$2.76|
+|**TOTALS**|||||||**$41.11**||**$98.41**|
