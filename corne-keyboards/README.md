@@ -16,6 +16,14 @@ Find relavent files in [3dprint_case](3Dprint_case/)
 
 ---
 
+## [Tented Case Build](tented_case/)
+
+<!-- ![3dprint](images/3dprint_in_cases.jpg) -->
+
+Find relavent files in [tented_case](tented_case/)
+
+---
+
 
 ## Electronics Parts List
 
