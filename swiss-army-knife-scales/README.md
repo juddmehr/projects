@@ -1,3 +1,3 @@
 # Swiss Army Knife Scales
 
-![fancy](unfolded.jpg)
+<img src="unfolded.jpg" alt="unfolded" width="400"/>
