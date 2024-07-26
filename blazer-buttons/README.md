@@ -1,6 +1,5 @@
 # Blazer Buttons
 
-![buttons](buttons.jpg)
-<img src="buttons.jpg" alt="buttons" width="200"/>
+<img src="buttons.jpg" alt="buttons" width="400"/>
 
 CAD COMING SOON
