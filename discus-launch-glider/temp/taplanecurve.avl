@@ -1,0 +1,206 @@
+#
+# Note : check consistency of area unit and length units in this file
+# Note : check consistency with inertia units of the .mass file
+#
+#
+Demon Strator
+0.0                                 | Mach
+0     0     0.0                     | iYsym  iZsym  Zsym
+.13488750000   .13862691   1.00000000   | Sref   Cref   Bref
+ .04125    0.0     0.0  | Xref   Yref   Zref
+ 0.020                               | CDp  (optional)
+
+
+############################
+#### MAIN WING GEOMETRY ####
+############################
+
+SURFACE                      | (keyword)
+Main Wing
+#Nchord    Cspace   [ Nspan Sspace ]
+13        1.0
+
+
+YDUPLICATE
+0.0
+
+SCALE
+1.0  1.0  1.0
+
+TRANSLATE
+0.0  0.0  0.0
+
+ANGLE
+   0.000                         | dAinc
+
+
+### --- PANEL 1 --- ###
+
+## -- ROOT SECTION
+SECTION  |  (keyword)
+   0.0000    0.0000    0.0000  .1650000   0.000   10    1   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+AFILE 0.0 1.0
+Zone-V2-60.dat
+
+#Cname   Cgain  Xhinge  HingeVec       SgnDup
+CONTROL
+flap   1.0    0.70    0.0 1.0 0.0    1.0
+
+CONTROL
+aileron  -1.0   0.70    0.0 1.0 0.0   -1.0
+
+
+## -- MID SECTION
+SECTION                                                     |  (keyword)
+  .0275  .3350   .04083 .1250000   0.000   10    1   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+AFILE 0.0 1.0
+Zone-V2-40.dat
+
+#Cname   Cgain  Xhinge  HingeVec       SgnDup
+CONTROL
+flap   1.0    0.70    0.0 1.0 0.0    1.0
+
+CONTROL
+aileron  -1.0   0.70    0.0 1.0 0.0   -1.0
+
+
+
+## -- CURVE SECTIONS:
+SECTION
+.04118  .410   .04996 .1050000   0.000   10    1
+AFILE 0.0 1.0
+Zone-V2-20.dat
+CONTROL
+flap   1.0    0.70    0.0 1.0 0.0    1.0
+CONTROL
+aileron  -1.0   0.70    0.0 1.0 0.0   -1.0
+#-----------------------------------------------
+SECTION
+.07111  .48257   .0588 .06065   0.000   10    1
+AFILE 0.0 1.0
+Zone-V2-20.dat
+CONTROL
+flap   1.0    0.70    0.0 1.0 0.0    1.0
+CONTROL
+aileron  -1.0   0.70    0.0 1.0 0.0   -1.0
+
+
+## -- TIP SECTION
+SECTION                                                     |  (keyword)
+  0.1005  .500   .06093   .0150   0.000    9    1   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+AFILE 0.0 1.0
+Zone-V2-20.dat
+
+#Cname   Cgain  Xhinge  HingeVec       SgnDup
+CONTROL
+flap   1.0    0.70    0.0 1.0 0.0    1.0
+
+CONTROL
+aileron  -1.0   0.70    0.0 1.0 0.0   -1.0
+
+
+
+########################################
+#### HORIZONTAL STABILIZER GEOMETRY ####
+########################################
+
+SURFACE                      | (keyword)
+HSTAB
+#Nchord    Cspace   [ Nspan Sspace ]
+7        1.0
+
+
+YDUPLICATE
+0.0
+
+SCALE
+1.0  1.0  1.0
+
+TRANSLATE
+.5500000  0.0  0.0
+
+ANGLE
+   0.000                         | dAinc
+
+
+### --- PANEL 1 --- ###
+
+## -- TIP SECTION
+SECTION |  (keyword)
+.0120 .1300  0.0   .0400000   0.000    7    1   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+AFILE 0.0 1.0
+Zone-V2-20.dat
+
+CONTROL
+elevator  1.0    0.4    0.0 1.0 0.0     1.0
+
+
+## -- ROOT SECTION
+SECTION  |  (keyword)
+ 0.0000    0.0000  0.0000   .0700000   0.000    7    1   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+AFILE 0.0 1.0
+Zone-V2-20.dat
+
+CONTROL
+elevator  1.0    0.4    0.0 1.0 0.0     1.0
+
+
+
+
+
+##########################################
+#### TOP VERTICAL STABILIZER GEOMETRY ####
+##########################################
+SURFACE | (keyword)
+VSTAB
+#Nchord    Cspace   [ Nspan Sspace ]
+7        1.0
+
+SCALE
+1.0  1.0  1.0
+
+TRANSLATE
+.630000  0.0  0.0
+
+ANGLE
+   0.000                         | dAinc
+
+
+### --- PANEL 1 --- ###
+
+## -- TIP SECTION
+SECTION                                                     |  (keyword)
+.0120   0.0  -.0600000   .0400000   0.00    7    0   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+NACA 0.0 1.0
+0010
+
+CONTROL
+rudder    1.0    0.40    0.0 0.0 1.0
+
+## -- ROOT SECTION
+SECTION                                                     |  (keyword)
+0.0    0.0   0.0000   .0700000   0.00    7    0   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+NACA 0.0 1.0
+0007
+
+CONTROL
+rudder    1.0    0.40    0.0 0.0 1.0
+
+## -- TIP SECTION
+SECTION                                                     |  (keyword)
+.0160   0.0  .1000000   .0300000   0.00    7    0   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+NACA 0.0 1.0
+0010
+
+CONTROL
+rudder    1.0    0.40    0.0 0.0 1.0
+
+

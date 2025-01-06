@@ -1,0 +1,40 @@
+#-------------------------------------------------
+#  TA Demon Strator
+#
+#  Dimensional unit and parameter data.
+#  Mass & Inertia breakdown.
+#-------------------------------------------------
+
+#  Names and scalings for units to be used for trim and eigenmode calculations.
+#  The Lunit and Munit values scale the mass, xyz, and inertia table data below.
+#  Lunit value will also scale all lengths and areas in the AVL input file.
+Lunit =  1 m
+Munit =  1 kg
+Tunit = 1 s
+
+#-------------------------
+#  Gravity and density to be used as default values in trim setup (saves runtime typing).
+#  Must be in the unit names given above (m,kg,s).
+g  = 9.81
+rho = 1.067
+
+#-------------------------
+#  Mass & Inertia breakdown.
+#  x y z  is location of item's own CG.
+#  Ixx... are item's inertias about item's own CG.
+#
+#  x,y,z system here must be exactly the same one used in the .avl input file
+#  (same orientation, same origin location, same length units)
+#
+#  mass  x  y  z  Ixx  Iyy  Izz  Ixy  Ixz  Iyz
+#
+# mass  x  y  z  Ixx  Iyy  Izz  Ixy  Ixz  Iyz
+  0.075  0.0704  0  .0265  4.3e-6  1e-7  4.36e-6  0  6.12e-09  0 ! Main Wing
+  0.005  0.577  0  -0.000453  2.08e-08  9.21e-10  2.17e-08  0  6.87e-12  0 ! Elevator
+  .005  0.653  0.0  0  8.59e-09  9.3e-09  7.1e-10  0  0  0 ! Fin
+  0.050  0.100  0  0  0  0  0 ! Fuselage
+  0.020  -0.125  0  0  0  0  0 ! Servos
+  0.016  -0.150  0  0  0  0  0 ! Battery
+  0.005  -0.150  0  0  0  0  0 ! Receiver
+
+

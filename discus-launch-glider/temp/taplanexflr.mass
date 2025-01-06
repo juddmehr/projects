@@ -1,0 +1,35 @@
+#-------------------------------------------------
+#
+#  ME415TA-Drelafoils
+#
+#  Dimensional unit and parameter data.
+#  Mass & Inertia breakdown.
+#-------------------------------------------------
+#  Names and scalings for units to be used for trim and eigenmode calculations.
+#  The Lunit and Munit values scale the mass, xyz, and inertia table data below.
+#  Lunit value will also scale all lengths and areas in the AVL input file.
+#
+Lunit =  0.0010 m
+Munit =  0.0010 kg
+Tunit = 1.0 s
+#-------------------------
+#  Gravity and density to be used as default values in trim setup (saves runtime typing).
+#  Must be in the unit names given above (i.e. m,kg,s).
+g  = 9.81
+rho = 1.225
+#-------------------------
+#  Mass & Inertia breakdown.
+#  x y z  is location of item's own CG.
+#  Ixx... are item's inertias about item's own CG.
+#
+#  x,y,z system here must be exactly the same one used in the .avl input file
+#  (same orientation, same origin location, same length units)
+#
+# mass  x  y  z  Ixx  Iyy  Izz  Ixy  Ixz  Iyz
+  75  70.4  0  26.5  0.00429  0.000101  0.00436  0  6.12e-06  0 ! Main Wing
+  5  577  0  -0.453  2.08e-05  9.21e-07  2.17e-05  0  6.87e-09  0 ! Elevator
+  5  653  -0.416  0  8.59e-06  9.3e-06  7.1e-07  0  0  0 ! Fin
+  50  100  0  0  0  0  0 ! Fuselage
+  20  -125  0  0  0  0  0 ! Servos
+  16  -150  0  0  0  0  0 ! Battery
+  5  -175  0  0  0  0  0 ! Receiver
